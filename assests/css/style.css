@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+hr {
+    color: white;
+}
+
+body {
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#maindiv {
+    background-color: rgba(0, 0, 0, 0.364);
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+.h1-other {
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(221, 221, 221, 0.737);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.cartas {
+
+    padding: 20px;
+    background-color: rgba(221, 221, 221, 0.737);
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+
+}
+
+.carta:hover {
+
+    animation-duration: 1s;
+    animation-name: anime;
+
+
+}
+@keyframes anime {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: translate(0, -5px);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+
+
+
+footer {
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.484);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.bt{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h5 {
+    text-transform: uppercase;
+}
+
+h2 {
+    color: white;
+}
+@media screen and (max-width:767px) {
+    #search{
+        height: 34px;
+        margin-top: 3px;
+    }
+    #btn-search{
+        height: 40px;
+    }
+}
